@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="./potencia.html">Potencia</a>
+    <a href="./conversion.html">Conversion</a>
+    <a href="./promedio.html">Promedio</a>
+    <a href="./area.html">Area</a>
+    <script>
+        // Calcular el promedio de 3 notas
+        var n1, n2, n3;
+        var p;
+        alert("Ingrese 3 notas para obtener su promedio");
+        // Entrada
+        n1 = parseInt(prompt("Ingrese su primera nota"));
+        n2 = parseInt(prompt("Ingrese su segunda nota"));
+        n3 = parseInt(prompt("Ingrese su tercera nota"));
+        // Proceso
+        p = (n1 + n2 + n3) / 3;
+        // Salida
+        if (p >= 11) {
+            alert("Excelente aprobaste el curso con: " + p);
+        } else {
+            alert("Desaprobaste el curso con: " + p);
+        }
+    </script>
+</body>
+
+</html>
